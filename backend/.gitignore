@@ -1,0 +1,59 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and database files
+*.log
+*.sqlite3
+*.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Cython and compiled extensions
+*.so
+*.pyd
+*.dll
+
+# MacOS files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Test coverage and profiling
+.coverage
+htmlcov/
+.cache/
+*.prof
+
+# Docker-related
+*.dockerfile
+docker-compose.override.yml
+
+# Secrets and config files
+.env
+config.json
+secrets.json
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
